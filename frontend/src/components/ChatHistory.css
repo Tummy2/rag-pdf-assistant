@@ -1,0 +1,40 @@
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.chat-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-bubble {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 18px;
+  margin-bottom: 14px;
+  max-width: 70%;
+  color: #fff;
+  font-size: 1rem;
+  word-break: break-word;
+  background: #6c6c6c;
+  align-self: flex-end;
+  margin-left: auto;
+  text-align: right;
+}
+
+.assistant-message {
+  margin-bottom: 14px;
+  max-width: 70%;
+  color: #fff;
+  font-size: 1rem;
+  word-break: break-word;
+  background: none;
+  align-self: flex-start;
+  margin-right: auto;
+  text-align: left;
+}

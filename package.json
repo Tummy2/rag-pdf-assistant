@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@langchain/classic": "^1.0.3",
+    "@langchain/community": "^1.0.3",
+    "@langchain/openai": "^1.1.1",
+    "chromadb": "^3.1.4",
+    "pdf-parse": "^1.1.4"
+  }
+}

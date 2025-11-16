@@ -1,0 +1,24 @@
+.upload-pdf {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #444654;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s;
+}
+
+.upload-pdf:hover {
+  background: #666;
+}
+
+.plus {
+  font-size: 1.8rem;
+  color: #fff;
+  user-select: none;
+  pointer-events: none;
+}

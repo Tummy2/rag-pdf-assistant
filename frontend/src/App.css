@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container {
+  background: #222;
+  border-radius: 16px;
+  width: 800px;
+  height: 600px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.chat-bar-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #333;
+  justify-content: center;
+}
